@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Routes
-app.get("/", (req, res) => {
+app.get("/footer", (req, res) => {
   res.json({
     version: "CommentApp | Alpacorp | V1 | Todos los derechos reservados",
   });
